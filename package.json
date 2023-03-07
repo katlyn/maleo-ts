@@ -1,0 +1,30 @@
+{
+  "name": "maleo-interpret",
+  "version": "0.0.1",
+  "description": "Silly interpreter for Maleo in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tap --ts",
+    "test:watch": "tap --ts -w",
+    "lint": "eslint . --ext .js,.ts",
+    "start": "node ./dist/src/index.js",
+    "build": "tsc",
+    "clean": "rm -rf ./dist tsconfig.buildinfo"
+  },
+  "author": "katlyn <katlyn@katlyn.dev>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/tap": "^15.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.33.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "tap": "^16.3.4",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "packageManager": "pnpm@7.13.4"
+}
